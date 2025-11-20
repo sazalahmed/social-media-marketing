@@ -1,0 +1,16 @@
+Home Sections:
+Hero Section     == ok
+Ai Section
+Features Section == ok
+Reviews Section  == ok
+How It's Works   == ok
+Pricing Section  == ok
+FAQ              == ok
+Blogs Section    == ok
+
+Pages:
+Pricing
+Blog
+Contact
+About
+Other pages
