@@ -9,8 +9,8 @@ FAQ              == ok
 Blogs Section    == ok
 
 Pages:
-Pricing
-Blog
+Pricing	   == ok
+Blog       == ok
 Contact
-About
+About      == ok
 Other pages

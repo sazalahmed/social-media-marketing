@@ -1,0 +1,111 @@
+.pws_tabs_container,
+.pws_tabs_controll a {
+  font-size: 16px;
+}
+
+.pws_tabs_container {
+  width: 100% !important;
+  text-align: center;
+}
+
+.pws_tabs_container ul.pws_tabs_controll {
+  display: inline-flex;
+  margin: 0 auto;
+  background: #f8f6ff;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+.pws_tabs_container ul.pws_tabs_controll li {
+  display: inline-block;
+}
+
+.pws_tabs_container ul.pws_tabs_controll li a {
+  cursor: pointer;
+  padding: 12px 0;
+  color: var(--colorBlack);
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  position: relative;
+  z-index: 1;
+  width: 130px;
+}
+
+.pws_tabs_container ul.pws_tabs_controll li:first-child a::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: var(--colorPrimary);
+  bottom: 0;
+  left: 100%;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  z-index: -1;
+  transition: all linear .2s;
+  -webkit-transition: all linear .2s;
+  -moz-transition: all linear .2s;
+  -ms-transition: all linear .2s;
+  -o-transition: all linear .2s;
+}
+
+.pws_tabs_container ul li:first-child a.pws_tab_active::after {
+  left: 0;
+}
+
+.pws_tabs_container ul.pws_tabs_controll li a i {
+  margin-right: 8px;
+}
+
+.pws_tabs_container ul.pws_tabs_controll li a.pws_tab_noname i {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.pws_tabs_container ul.pws_tabs_controll li a.pws_tab_active {
+  color: var(--colorWhite) !important;
+}
+
+.pws_tabs_container ul.pws_tabs_controll li a:hover {
+  color: var(--colorPrimary);
+}
+
+.pws_tab_single {
+  display: block;
+  transition: all linear .2s;
+  -webkit-transition: all linear .2s;
+  -moz-transition: all linear .2s;
+  -ms-transition: all linear .2s;
+  -o-transition: all linear .2s;
+}
+
+.pws_tabs_container.pws_scale>.pws_tabs_list>.pws_hide {
+  opacity: .85;
+  transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  -moz-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  -o-transform: scale(0.95);
+}
+
+.pws_tabs_container.pws_scale>.pws_tabs_list>.pws_show {
+  opacity: 1;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+}

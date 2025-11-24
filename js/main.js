@@ -25,7 +25,9 @@ $(function () {
 
     //parallax
     var scene = document.getElementById('scene');
-    var parallaxInstance = new Parallax(scene);
+    if (scene) {
+        var parallaxInstance = new Parallax(scene);
+    }
 
     // SVG Inject js
     SVGInject(document.querySelectorAll("img.injectable"));
@@ -93,9 +95,11 @@ $(function () {
     });
 
 
-
-
-
-
+    // pricing tabs
+    $('.tabset1').pwstabs({
+        effect: 'scale',
+        defaultTab: 1,
+    });
 
 });
+
