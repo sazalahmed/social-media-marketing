@@ -82,23 +82,17 @@ $(function () {
         focusOnSelect: true,
         centerMode: true,
         centerPadding: '0px',
-
-        responsive: [
-            {
-                breakpoint: 576,
-                settings: {
-                    slidesToShow: 1,
-                    arrows: false
-                }
-            }
-        ]
     });
-
 
     // pricing tabs
     $('.tabset1').pwstabs({
         effect: 'scale',
         defaultTab: 1,
+    });
+
+    // small device toggle icon
+    $(".navbar-toggler").on("click", function () {
+        $(".navbar-toggler").toggleClass("show");
     });
 
 });
