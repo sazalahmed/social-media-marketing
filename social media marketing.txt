@@ -9,8 +9,16 @@ FAQ              == ok
 Blogs Section    == ok
 
 Pages:
-Pricing	   == ok
-Blog       == ok
-Contact
-About      == ok
-Other pages
+Pricing	      == ok
+Blog          == ok
+Blog details  == ok
+Contact	      == ok
+About         == ok
+sign in       == ok
+sign up       == ok
+forgot        == ok
+faq           == ok
+features      == ok
+privacy policy== ok
+terms & condition == ok
+
