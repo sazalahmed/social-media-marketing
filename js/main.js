@@ -29,9 +29,6 @@ $(function () {
         var parallaxInstance = new Parallax(scene);
     }
 
-    // SVG Inject js
-    SVGInject(document.querySelectorAll("img.injectable"));
-
     // testimoial
     $('.testi_slider_text').slick({
         slidesToShow: 1,
@@ -43,6 +40,8 @@ $(function () {
         asNavFor: '.testi_slider_img',
         nextArrow: '<i class="fa-solid fa-arrow-right-long nextArrow"></i>',
         prevArrow: '<i class="fa-solid fa-arrow-left-long prevArrow"></i>',
+        // for rtl
+        rtl: true,
 
         responsive: [
             {
@@ -82,6 +81,8 @@ $(function () {
         focusOnSelect: true,
         centerMode: true,
         centerPadding: '0px',
+        // for rtl
+        rtl: true,
     });
 
     // pricing tabs
@@ -89,6 +90,9 @@ $(function () {
         effect: 'scale',
         defaultTab: 1,
     });
+
+    // SVG Inject js
+    SVGInject(document.querySelectorAll("img.injectable"));
 
     // small device toggle icon
     $(".navbar-toggler").on("click", function () {

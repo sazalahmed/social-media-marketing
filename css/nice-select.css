@@ -152,6 +152,7 @@
   flex-direction: column;
   gap: 0px;
   padding: 7px 0px;
+  margin-top: 5px;
 }
 
 .nice-select .list:hover .option:not(:hover) {

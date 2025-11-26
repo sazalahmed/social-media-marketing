@@ -1,5 +1,4 @@
 @media (min-width: 1600px) and (max-width: 1800px) {
-
     .container {
         max-width: 1450px;
     }
@@ -42,9 +41,6 @@
         width: 450px;
     }
 
-    /* ============================
-        blog details start
-    ============================ */
     .wsus__sidebar_search,
     .wsus__sidebar_blog_category,
     .wsus__sidebar_recent_post,
@@ -56,10 +52,6 @@
         gap: 12px;
     }
 
-    /* ============================
-        blog details end
-    ============================ */
-
     .wsus__sign_up_contant b::after,
     .wsus__sign_up_contant b::before {
         width: 130px;
@@ -69,9 +61,7 @@
 
 @media (min-width: 1400px) and (max-width: 1599px) {
 
-    /* ============================
-        home page start
-    ============================ */
+    /* home page start */
     .container {
         max-width: 1320px;
     }
@@ -187,13 +177,9 @@
         bottom: -25px;
     }
 
-    /* ============================
-        home page end
-    ============================ */
+    /* home page end */
 
-    /* ============================
-        blog details start
-    ============================ */
+    /* blog details start */
     .wsus__blog_details_thumb {
         height: 565px;
     }
@@ -214,9 +200,8 @@
         gap: 10px;
     }
 
-    /* ============================
-        blog details end
-    ============================ */
+    /* blog details end */
+
     .wsus__contact_info h3 {
         font-size: 20px;
     }
@@ -234,14 +219,11 @@
     .wsus__sign_up_contant b::before {
         width: 120px;
     }
-
 }
 
 @media (min-width: 1200px) and (max-width: 1399px) {
 
-    /* ============================
-        home page start
-    ============================ */
+    /* home page start */
     .container {
         max-width: 1140px;
     }
@@ -394,17 +376,13 @@
         gap: 0px 20px;
     }
 
-    /* ============================
-        home page end
-    ============================ */
+    /* home page end */
 
     .wsus__breadcrumb_text p {
         max-width: 100%;
     }
 
-    /* ============================
-        blog details start
-    ============================ */
+    /* blog details start */
     .wsus__blog_details_thumb {
         height: 430px;
     }
@@ -424,9 +402,8 @@
         width: 87%;
     }
 
-    /* ============================
-        blog details end
-    ============================ */
+    /*  blog details end */
+
     .wsus__contact_info {
         padding: 35px 25px 35px 85px;
     }
@@ -454,25 +431,15 @@
     .wsus__sign_up_img {
         height: 100%;
     }
-
-
-
-
-
-
-
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
 
-    /* ============================
-        home page start
-    ============================ */
+    /* home page start */
     .container {
         max-width: 960px;
     }
 
-    /* menu start */
     .main_menu {
         border-bottom: 1px solid #eee;
     }
@@ -504,8 +471,6 @@
         line-height: 50px;
     }
 
-    /* menu end */
-
     .wsus__banner {
         height: auto;
         padding: 100px 0px 120px 0px;
@@ -534,7 +499,6 @@
 
     .wsus__banner_text .circle_box {
         bottom: -30px;
-        /* right: 60px; */
         width: 150px;
         height: 150px;
     }
@@ -601,7 +565,6 @@
 
     .wsus__about_img .img {
         height: 315px;
-        /* margin-bottom: 50px; */
     }
 
     .wsus__about::after {
@@ -723,10 +686,6 @@
         max-width: 100%;
     }
 
-    .wsus__about {
-        /* padding-bottom: 0px !important; */
-    }
-
     .wsus__footer_top {
         margin-bottom: 47px;
     }
@@ -769,16 +728,13 @@
         padding-left: 0;
     }
 
-    /* ============================
-        home page end
-    ============================ */
+    /* home page end */
+
     .wsus__breadcrumb_text p {
         max-width: 65%;
     }
 
-    /* ============================
-        blog details start
-    ============================ */
+    /* blog details start */
     .wsus__blog_details_thumb {
         height: 360px;
     }
@@ -819,9 +775,8 @@
         font-size: 12px;
     }
 
-    /* ============================
-        blog details end
-    ============================ */
+    /* blog details end */
+
     .wsus__contact_info {
         padding: 25px 25px 25px 85px;
     }
@@ -855,14 +810,11 @@
 
 @media (min-width: 767px) and (max-width: 991px) {
 
-    /* ============================
-        home page start
-    ============================ */
+    /* home page start */
     .container {
         max-width: 720px;
     }
 
-    /* menu start */
     .main_menu {
         border-bottom: 1px solid #eee;
     }
@@ -893,8 +845,6 @@
     .main_menu .navbar-nav .nav-item .nav-link {
         line-height: 50px;
     }
-
-    /* menu end */
 
     .wsus__banner {
         height: auto;
@@ -1057,10 +1007,6 @@
         bottom: -85px;
     }
 
-    .title {
-        font-weight: 600;
-    }
-
     .wsus__footer_subscribe {
         padding-left: 0;
         flex-direction: column;
@@ -1139,16 +1085,13 @@
         padding-left: 0;
     }
 
-    /* ============================
-        home page end
-    ============================ */
+    /* home page end */
+
     .wsus__breadcrumb_text p {
         max-width: 75%;
     }
 
-    /* ============================
-        blog details start
-    ============================ */
+    /* blog details start */
     .wsus__blog_details_thumb {
         height: 405px;
     }
@@ -1165,9 +1108,7 @@
         width: 87%;
     }
 
-    /* ============================
-        blog details end
-    ============================ */
+    /*  blog details end */
 
     .wsus__contact_img {
         height: 680px;
@@ -1203,19 +1144,15 @@
     .wsus__sign_up_contant b::before {
         width: 150px;
     }
-
 }
 
 @media (min-width: 576px) and (max-width: 766px) {
 
-    /* ============================
-        home page start
-    ============================ */
+    /* home page start */
     .container {
         max-width: 540px;
     }
 
-    /* menu start */
     .main_menu .container {
         padding: 18px 12px;
     }
@@ -1247,8 +1184,6 @@
         width: 210px;
         max-height: 210px;
     }
-
-    /* menu end */
 
     .wsus__banner {
         height: auto;
@@ -1419,10 +1354,6 @@
         font-size: 16px;
     }
 
-    .title {
-        font-weight: 600;
-    }
-
     .wsus__footer_subscribe {
         padding-left: 0;
         padding-bottom: 45px;
@@ -1488,9 +1419,8 @@
         padding-left: 0;
     }
 
-    /* ============================
-        home page end
-    ============================ */
+    /* home page end */
+
     .wsus__breadcrumb_text h1 {
         font-size: 38px;
     }
@@ -1506,9 +1436,7 @@
         padding: 70px 0px;
     }
 
-    /* ============================
-        blog details start
-    ============================ */
+    /* blog details start */
     .wsus__blog_details_thumb {
         height: 300px;
     }
@@ -1537,9 +1465,8 @@
         width: 83%;
     }
 
-    /* ============================
-        blog details end
-    ============================ */
+    /* blog details end */
+
     .wsus__contact_img {
         height: 445px;
         margin-left: 0;
@@ -1558,19 +1485,15 @@
     .wsus__sign_up_contant b::before {
         width: 150px;
     }
-
 }
 
 @media (max-width: 575px) {
 
-    /* ============================
-        home page start
-    ============================ */
+    /* home page start */
     .container {
         max-width: 100%;
     }
 
-    /* menu start */
     .main_menu .container {
         padding: 18px 0px;
     }
@@ -1619,8 +1542,6 @@
         width: 210px;
         max-height: 210px;
     }
-
-    /* menu end */
 
     .wsus__banner {
         height: auto;
@@ -1862,9 +1783,7 @@
         margin-top: 25px;
     }
 
-    /* ============================
-        home page end
-    ============================ */
+    /* home page end */
 
     .wsus__breadcrumb_text h1 {
         font-size: 38px;
@@ -1893,9 +1812,7 @@
         padding: 60px 0px;
     }
 
-    /* ============================
-        blog details start
-    ============================ */
+    /* blog details start */
     .wsus__blog_details_thumb {
         height: auto;
     }
@@ -1935,13 +1852,9 @@
         padding: 20px;
     }
 
-    /* ============================
-        blog details end
-    ============================ */
+    /* blog details end */
 
-    /* ============================
-        contact start
-    ============================ */
+    /* contact start */
     .wsus__contact_form form {
         padding: 30px;
     }
@@ -1968,9 +1881,8 @@
         height: 250px;
     }
 
-    /* ============================
-        contact end
-    ============================ */
+    /* contact end */
+
     .wsus__faq_page .wsus__faq_text {
         padding: 15px 30px;
     }

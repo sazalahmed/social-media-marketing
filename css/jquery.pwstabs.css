@@ -39,6 +39,7 @@
   position: relative;
   z-index: 1;
   width: 130px;
+  text-align: center;
 }
 
 .pws_tabs_container ul.pws_tabs_controll li:first-child a::after {
