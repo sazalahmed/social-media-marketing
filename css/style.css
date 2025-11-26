@@ -1136,6 +1136,10 @@ button {
     -o-border-radius: 20px 20px 100px 20px;
 }
 
+.wsus__about_text_area {
+    padding-left: 55px;
+}
+
 .wsus__about_text .seperator {
     display: flex;
     flex-wrap: wrap;
@@ -1613,6 +1617,7 @@ button {
     align-items: start;
     gap: 20px;
     position: relative;
+    text-align: left;
 }
 
 .wsus__single_pricing ul li {
@@ -2017,11 +2022,11 @@ footer {
     color: var(--colorWhite);
     font-size: 24px;
     font-weight: 600;
-    max-width: 350px;
+    max-width: 400px;
 }
 
 .wsus__footer_subscribe form {
-    width: 370px;
+    width: 450px;
     position: relative;
 }
 
