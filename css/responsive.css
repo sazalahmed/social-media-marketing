@@ -42,6 +42,28 @@
         width: 450px;
     }
 
+    /* ============================
+        blog details start
+    ============================ */
+    .wsus__sidebar_search,
+    .wsus__sidebar_blog_category,
+    .wsus__sidebar_recent_post,
+    .wsus__sidebar_blog_tags {
+        padding: 25px;
+    }
+
+    .wsus__sidebar_recent_post ul li {
+        gap: 12px;
+    }
+
+    /* ============================
+        blog details end
+    ============================ */
+
+    .wsus__sign_up_contant b::after,
+    .wsus__sign_up_contant b::before {
+        width: 130px;
+    }
 
 }
 
@@ -169,6 +191,49 @@
         home page end
     ============================ */
 
+    /* ============================
+        blog details start
+    ============================ */
+    .wsus__blog_details_thumb {
+        height: 565px;
+    }
+
+    .wsus__sidebar_search,
+    .wsus__sidebar_blog_category,
+    .wsus__sidebar_recent_post,
+    .wsus__sidebar_blog_tags {
+        padding: 25px;
+    }
+
+    .wsus__sidebar_recent_post ul li .img {
+        width: 100px;
+        height: 75px;
+    }
+
+    .wsus__sidebar_recent_post ul li {
+        gap: 10px;
+    }
+
+    /* ============================
+        blog details end
+    ============================ */
+    .wsus__contact_info h3 {
+        font-size: 20px;
+    }
+
+    .wsus__contact_img {
+        height: 100%;
+        margin-left: 0;
+    }
+
+    .wsus__sign_up_contant {
+        padding: 25px;
+    }
+
+    .wsus__sign_up_contant b::after,
+    .wsus__sign_up_contant b::before {
+        width: 120px;
+    }
 
 }
 
@@ -332,6 +397,65 @@
     /* ============================
         home page end
     ============================ */
+
+    .wsus__breadcrumb_text p {
+        max-width: 100%;
+    }
+
+    /* ============================
+        blog details start
+    ============================ */
+    .wsus__blog_details_thumb {
+        height: 430px;
+    }
+
+    .wsus__sidebar_search,
+    .wsus__sidebar_blog_category,
+    .wsus__sidebar_recent_post,
+    .wsus__sidebar_blog_tags {
+        padding: 25px;
+    }
+
+    .wsus__blog_det_tags_share ul {
+        margin-top: 15px;
+    }
+
+    .wsus__blog_single_comment .text {
+        width: 87%;
+    }
+
+    /* ============================
+        blog details end
+    ============================ */
+    .wsus__contact_info {
+        padding: 35px 25px 35px 85px;
+    }
+
+    .wsus__contact_info span {
+        left: 20px;
+        width: 50px;
+        height: 50px;
+        padding: 12px;
+    }
+
+    .wsus__contact_info h3 {
+        font-size: 18px;
+    }
+
+    .wsus__contact_form form {
+        padding: 35px;
+    }
+
+    .wsus__contact_img {
+        height: 100%;
+        margin-left: 0;
+    }
+
+    .wsus__sign_up_img {
+        height: 100%;
+    }
+
+
 
 
 
@@ -648,8 +772,84 @@
     /* ============================
         home page end
     ============================ */
+    .wsus__breadcrumb_text p {
+        max-width: 65%;
+    }
 
+    /* ============================
+        blog details start
+    ============================ */
+    .wsus__blog_details_thumb {
+        height: 360px;
+    }
 
+    .wsus__blog_det_tags_share ul {
+        margin-top: 10px;
+    }
+
+    .wsus__blog_single_comment .text {
+        width: 86%;
+    }
+
+    .wsus__sidebar_search,
+    .wsus__sidebar_blog_category,
+    .wsus__sidebar_recent_post,
+    .wsus__sidebar_blog_tags {
+        padding: 20px;
+    }
+
+    .wsus__sidebar_recent_post ul li .img {
+        width: 95px;
+        height: 75px;
+    }
+
+    .wsus__sidebar_recent_post ul li .text {
+        width: 55%;
+    }
+
+    .wsus__sidebar_recent_post ul li .text a {
+        font-size: 14px;
+    }
+
+    .wsus__sidebar_recent_post ul li {
+        gap: 10px;
+    }
+
+    .wsus__sidebar_recent_post ul li .text p {
+        font-size: 12px;
+    }
+
+    /* ============================
+        blog details end
+    ============================ */
+    .wsus__contact_info {
+        padding: 25px 25px 25px 85px;
+    }
+
+    .wsus__contact_info span {
+        left: 20px;
+    }
+
+    .wsus__contact_info h3 {
+        font-size: 18px;
+    }
+
+    .wsus__contact_form form {
+        padding: 25px;
+    }
+
+    .wsus__contact_img {
+        height: 100%;
+        margin-left: 0;
+    }
+
+    .wsus__sign_up_contant {
+        padding: 25px;
+    }
+
+    .wsus__sign_up_img {
+        height: 100%;
+    }
 
 }
 
@@ -942,7 +1142,67 @@
     /* ============================
         home page end
     ============================ */
+    .wsus__breadcrumb_text p {
+        max-width: 75%;
+    }
 
+    /* ============================
+        blog details start
+    ============================ */
+    .wsus__blog_details_thumb {
+        height: 405px;
+    }
+
+    .wsus__blog_details_header h2 {
+        font-size: 34px;
+    }
+
+    .wsus__blog_det_tags_share ul {
+        margin-top: 30px;
+    }
+
+    .wsus__blog_single_comment .text {
+        width: 87%;
+    }
+
+    /* ============================
+        blog details end
+    ============================ */
+
+    .wsus__contact_img {
+        height: 680px;
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+    .contact_map {
+        height: 400px;
+    }
+
+    .wsus__contact_info {
+        padding: 30px 30px 30px 100px;
+    }
+
+    .wsus__contact_info span {
+        left: 30px;
+    }
+
+    .wsus__contact_form form {
+        padding: 30px;
+    }
+
+    .wsus__contact_info h3 {
+        font-size: 18px;
+    }
+
+    .wsus__faq_page .wsus__faq_text {
+        padding: 25px 40px;
+    }
+
+    .wsus__sign_up_contant b::after,
+    .wsus__sign_up_contant b::before {
+        width: 150px;
+    }
 
 }
 
@@ -1231,8 +1491,73 @@
     /* ============================
         home page end
     ============================ */
+    .wsus__breadcrumb_text h1 {
+        font-size: 38px;
+    }
 
+    .wsus__breadcrumb_text p {
+        line-height: 24px;
+        max-width: 95%;
+        font-size: 16px;
+        margin-bottom: 23px;
+    }
 
+    .wsus__breadcrumb_text {
+        padding: 70px 0px;
+    }
+
+    /* ============================
+        blog details start
+    ============================ */
+    .wsus__blog_details_thumb {
+        height: 300px;
+    }
+
+    .wsus__blog_details_header h2 {
+        font-size: 34px;
+    }
+
+    .details_quot_text {
+        padding: 30px;
+    }
+
+    .details_quot_text::after {
+        display: none;
+    }
+
+    .wsus__blog_det_tags_share ul {
+        margin-top: 30px;
+    }
+
+    .wsus__blog_comment_area h2 {
+        font-size: 28px;
+    }
+
+    .wsus__blog_single_comment .text {
+        width: 83%;
+    }
+
+    /* ============================
+        blog details end
+    ============================ */
+    .wsus__contact_img {
+        height: 445px;
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+    .contact_map {
+        height: 350px;
+    }
+
+    .wsus__faq_page .wsus__faq_text {
+        padding: 25px 40px;
+    }
+
+    .wsus__sign_up_contant b::after,
+    .wsus__sign_up_contant b::before {
+        width: 150px;
+    }
 
 }
 
@@ -1475,7 +1800,7 @@
     }
 
     .title {
-        font-weight: 600;
+        font-size: 18px;
     }
 
     .wsus__footer_subscribe {
@@ -1541,6 +1866,130 @@
         home page end
     ============================ */
 
+    .wsus__breadcrumb_text h1 {
+        font-size: 38px;
+    }
 
+    .wsus__breadcrumb_text p {
+        line-height: 24px;
+        max-width: 100%;
+        font-size: 14px;
+        margin-bottom: 23px;
+    }
 
+    .wsus__breadcrumb ul li a {
+        font-size: 14px;
+    }
+
+    .wsus__breadcrumb ul li:first-child a::before {
+        top: 0px;
+    }
+
+    .wsus__breadcrumb ul li a::after {
+        top: 10px;
+    }
+
+    .wsus__breadcrumb_text {
+        padding: 60px 0px;
+    }
+
+    /* ============================
+        blog details start
+    ============================ */
+    .wsus__blog_details_thumb {
+        height: auto;
+    }
+
+    .wsus__blog_details_header h2 {
+        font-size: 34px;
+    }
+
+    .details_quot_text {
+        padding: 30px;
+    }
+
+    .details_quot_text::after {
+        display: none;
+    }
+
+    .wsus__blog_det_tags_share ul li:first-child {
+        width: 100%;
+    }
+
+    .wsus__blog_det_tags_share ul {
+        margin-top: 30px;
+    }
+
+    .wsus__blog_comment_area h2 {
+        font-size: 28px;
+    }
+
+    .wsus__blog_single_comment .text {
+        width: 100%;
+    }
+
+    .wsus__sidebar_search,
+    .wsus__sidebar_blog_category,
+    .wsus__sidebar_recent_post,
+    .wsus__sidebar_blog_tags {
+        padding: 20px;
+    }
+
+    /* ============================
+        blog details end
+    ============================ */
+
+    /* ============================
+        contact start
+    ============================ */
+    .wsus__contact_form form {
+        padding: 30px;
+    }
+
+    .wsus__contact_info {
+        padding: 30px 30px 30px 115px;
+    }
+
+    .wsus__contact_info h3 {
+        font-size: 18px;
+    }
+
+    .wsus__contact_form form h3 {
+        font-size: 28px;
+    }
+
+    .wsus__contact_img {
+        height: auto;
+        margin-left: 0;
+        margin-top: 50px;
+    }
+
+    .contact_map {
+        height: 250px;
+    }
+
+    /* ============================
+        contact end
+    ============================ */
+    .wsus__faq_page .wsus__faq_text {
+        padding: 15px 30px;
+    }
+
+    .wsus__sign_up_contant {
+        padding: 25px;
+    }
+
+    .wsus__sign_up_contant b::after,
+    .wsus__sign_up_contant b::before {
+        width: 90px;
+    }
+
+    .wsus__login_form .forgot_password,
+    .wsus__login_form .wsus__remember_me label {
+        font-size: 14px;
+    }
+
+    .wsus__sign_up_contant h2 {
+        font-size: 28px;
+    }
 }
