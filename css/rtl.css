@@ -7,8 +7,6 @@
     direction: ltr;
 }
 
-/*  */
-
 .main_menu .droap_menu li a::after {
     left: auto;
     right: -25px;
@@ -182,7 +180,6 @@
 .wsus__work_item .icon {
     left: auto;
     right: -5px;
-    /* display: none; */
 }
 
 .wsus__work_item .text {
@@ -280,6 +277,7 @@
 
 .wsus__faq_text .accordion-button {
     padding: 15px 0px 15px 40px;
+    text-align: right;
 }
 
 .wsus__faq_text .accordion-button::after {
@@ -364,4 +362,546 @@
 .wsus__work::after {
     width: 300px;
     height: 300px;
+    top: -40px;
+}
+
+.wsus__breadcrumb ul li:first-child a::before {
+    left: auto;
+    right: -20px;
+}
+
+.wsus__breadcrumb ul li a::after {
+    right: auto;
+    left: -18px;
+}
+
+.wsus__breadcrumb ul {
+    padding: 10px 50px 10px 30px;
+}
+
+.wsus__sidebar_search form button {
+    right: auto;
+    left: 5px;
+}
+
+.wsus__blog_details_header ul li span {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+.wsus__blog_details_text ul,
+.wsus__blog_details_text ol {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.details_quot_text h4 {
+    padding-left: 0;
+    padding-right: 40px;
+}
+
+.details_quot_text h4::after {
+    left: auto;
+    right: 0;
+}
+
+.details_quot_text {
+    padding: 40px 130px 40px 45px;
+}
+
+.details_quot_text::after {
+    left: auto;
+    right: 50px;
+}
+
+.wsus__blog_det_tags_share ul li span {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.wsus__blog_comment_input_area .form-check {
+    padding-left: 0;
+}
+
+.wsus__blog_comment_input_area .form-check input {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.wsus__blog_comment_input_area .form-check label {
+    padding-right: 30px;
+}
+
+.wsus__blog_comment_input_area .form-check input {
+    margin-right: 0px;
+}
+
+.wsus__sidebar_blog_category ul li a::after {
+    left: auto;
+    right: 0;
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.wsus__sidebar_blog_category ul li a {
+    padding: 13px 21px 13px 0px;
+}
+
+.wsus__contact_info {
+    padding: 50px 115px 50px 50px;
+}
+
+.wsus__contact_info span {
+    left: auto;
+    right: 40px;
+}
+
+.wsus__contact_input .form-check {
+    padding-left: 0;
+}
+
+.form-check input {
+    float: right !important;
+    margin-right: 0;
+}
+
+.form-check label {
+    padding-right: 30px;
+}
+
+.form-check input {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+.wsus__contact_img {
+    margin-left: 0;
+    margin-right: 30px;
+}
+
+.wsus__pricacy_policy_text ul,
+.wsus__pricacy_policy_text ol {
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.wsus__sign_up_others_option img {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.wsus__pagination ul li a i {
+    transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+}
+
+@media (min-width: 1400px) and (max-width: 1599px) {
+    .wsus__work_item .text::after {
+        left: -115px;
+    }
+
+    .wsus__about_text .seperator .client .icon {
+        top: 37px;
+    }
+
+    .wsus__contact_img {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .wsus__about_img::after {
+        left: -30px;
+    }
+
+    .wsus__work_item .text::after {
+        left: -76px;
+    }
+
+    .wsus__faq_img_area .img::after {
+        right: -40px;
+    }
+
+    .wsus__work::after {
+        height: 220px;
+        top: -30px;
+    }
+
+    .wsus__faq_img_area::before {
+        left: -65px;
+    }
+
+    .wsus__contact_info {
+        padding: 35px 85px 35px 35px;
+    }
+
+    .wsus__contact_info span {
+        right: 20px;
+    }
+
+    .wsus__contact_img {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    /* home page start */
+    .main_menu .navbar-brand {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .main_menu .navbar-toggler {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .wsus__banner .circle_box {
+        left: -70px;
+    }
+
+    .wsus__banner_text .inpression_img {
+        right: -80px;
+    }
+
+    .wsus__about_img {
+        padding-right: 0;
+        padding-left: 30px;
+    }
+
+    .wsus__about_img::before {
+        left: 0;
+    }
+
+    .wsus__about_img::after {
+        left: 0;
+    }
+
+    .wsus__about_text_area {
+        padding-right: 0;
+    }
+
+    .wsus__footer_top_logo,
+    .wsus__footer_info,
+    .wsus__footer_instagram ul li {
+        border-right: 0;
+        border-left: 0;
+    }
+
+    .wsus__footer_subscribe {
+        padding-right: 0;
+    }
+
+    .wsus__footer_subscribe form button {
+        right: auto;
+        left: 5px;
+    }
+
+    .wsus__footer_instagram ul li {
+        border-left: 1px solid #ffffff2e;
+    }
+
+    .progress-wrap {
+        left: 20px;
+    }
+
+    .wsus__faq_img_area .img::after {
+        right: 70px;
+    }
+
+    .wsus__about_text .seperator .client {
+        padding: 20px 70px 20px 20px;
+    }
+
+    .wsus__about_text .seperator .client .icon {
+        right: 20px;
+    }
+
+    .wsus__work_item .text::after {
+        left: -55px;
+    }
+
+    .wsus__faq_img_area::before {
+        left: -60px;
+    }
+
+    .wsus__testimonial .nextArrow,
+    .wsus__testimonial .prevArrow {
+        left: -70px;
+    }
+
+    .wsus__testimonial .prevArrow {
+        right: -70px;
+    }
+
+    /* home page end */
+
+    .wsus__contact_info {
+        padding: 25px 85px 25px 25px;
+    }
+
+    .wsus__contact_info span {
+        right: 20px;
+    }
+
+    .wsus__contact_img {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 991px) {
+
+    /* home page start */
+    .main_menu .navbar-brand {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .main_menu .navbar-toggler {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .wsus__banner .circle_box {
+        left: 60px;
+    }
+
+    .wsus__banner_text .inpression_img {
+        right: -100px;
+    }
+
+    .wsus__about_img {
+        padding-right: 0;
+        padding-left: 30px;
+    }
+
+    .wsus__about_img::before {
+        left: 0;
+    }
+
+    .wsus__about_img::after {
+        left: 0;
+    }
+
+    .wsus__about_text_area {
+        padding-right: 0;
+    }
+
+    .wsus__footer_top_logo,
+    .wsus__footer_info,
+    .wsus__footer_instagram ul li {
+        border-right: 0;
+        border-left: 0;
+    }
+
+    .wsus__footer_subscribe {
+        padding-right: 0;
+    }
+
+    .wsus__footer_subscribe form button {
+        right: auto;
+        left: 5px;
+    }
+
+    .wsus__footer_instagram ul li {
+        border-left: 1px solid #ffffff2e;
+    }
+
+    .progress-wrap {
+        left: 20px;
+    }
+
+    .wsus__faq_img_area .img::after {
+        right: 70px;
+    }
+
+    .wsus__testimonial .nextArrow,
+    .wsus__testimonial .prevArrow {
+        left: -70px;
+    }
+
+    .wsus__testimonial .prevArrow {
+        right: -70px;
+    }
+
+    /* home page end */
+
+    .wsus__contact_info {
+        padding: 30px 100px 50px 50px;
+    }
+
+    .wsus__contact_info span {
+        right: 30px;
+    }
+
+    .wsus__contact_img {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 766px) {
+
+    /* home page start */
+    .main_menu .navbar-brand {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .main_menu .navbar-toggler {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .wsus__banner .circle_box {
+        left: 60px;
+    }
+
+    .wsus__banner_text .inpression_img {
+        right: -100px;
+    }
+
+    .wsus__about_img {
+        padding-right: 0;
+        padding-left: 30px;
+    }
+
+    .wsus__about_img::before {
+        left: 0;
+    }
+
+    .wsus__about_img::after {
+        left: 0;
+    }
+
+    .wsus__about_text_area {
+        padding-right: 0;
+    }
+
+    .wsus__footer_top_logo,
+    .wsus__footer_info,
+    .wsus__footer_instagram ul li {
+        border-right: 0;
+        border-left: 0;
+    }
+
+    .wsus__footer_subscribe {
+        padding-right: 0;
+    }
+
+    .wsus__footer_subscribe form button {
+        right: auto;
+        left: 5px;
+    }
+
+    .wsus__footer_instagram ul li {
+        border-left: 1px solid #ffffff2e;
+    }
+
+    .progress-wrap {
+        left: 20px;
+    }
+
+    .wsus__faq_img_area .img::after {
+        right: 55px;
+    }
+
+    /* home page end */
+
+    .wsus__contact_img {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 575px) {
+
+    /* home page start */
+    .main_menu .navbar-brand {
+        margin-left: 0;
+        margin-right: 12px;
+    }
+
+    .main_menu .navbar-toggler {
+        margin-right: 0;
+        margin-left: 12px;
+    }
+
+    .common_btn {
+        padding: 10px 20px 10px 45px !important;
+    }
+
+    .wsus__banner .circle_box {
+        left: 10px;
+    }
+
+    .wsus__banner_text .inpression_img {
+        right: -70px;
+    }
+
+    .wsus__about_img {
+        padding-right: 0;
+        padding-left: 30px;
+    }
+
+    .wsus__about_img::before {
+        left: 0;
+    }
+
+    .wsus__about_img::after {
+        left: 0;
+    }
+
+    .wsus__about_text_area {
+        padding-right: 0;
+    }
+
+    .wsus__footer_top_logo,
+    .wsus__footer_info,
+    .wsus__footer_instagram ul li {
+        border-right: 0;
+        border-left: 0;
+    }
+
+    .wsus__footer_subscribe {
+        padding-right: 0;
+    }
+
+    .wsus__footer_subscribe form button {
+        right: auto;
+        left: 9px;
+    }
+
+    .wsus__footer_instagram ul li {
+        border-left: 1px solid #ffffff2e;
+    }
+
+    .progress-wrap {
+        left: 20px;
+    }
+
+    .wsus__faq_img_area .img::after {
+        right: 20px;
+    }
+
+    /* home page end */
+
+    .wsus__contact_info {
+        padding: 30px 115px 30px 30px;
+    }
+
+    .wsus__contact_img {
+        margin-right: 0;
+    }
 }

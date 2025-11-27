@@ -33,7 +33,7 @@ $(function () {
     $('.testi_slider_text').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 3000,
         arrows: true,
         dots: false,
@@ -41,21 +41,9 @@ $(function () {
         nextArrow: '<i class="fa-solid fa-arrow-right-long nextArrow"></i>',
         prevArrow: '<i class="fa-solid fa-arrow-left-long prevArrow"></i>',
         // for rtl
-        rtl: true,
+        // rtl: true,
 
         responsive: [
-            {
-                breakpoint: 1200,
-                settings: {
-                    slidesToShow: 1,
-                }
-            },
-            {
-                breakpoint: 992,
-                settings: {
-                    vertical: false,
-                }
-            },
             {
                 breakpoint: 768,
                 settings: {
@@ -74,7 +62,7 @@ $(function () {
     $('.testi_slider_img').slick({
         slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 3000,
         arrows: false,
         asNavFor: '.testi_slider_text',
@@ -82,7 +70,7 @@ $(function () {
         centerMode: true,
         centerPadding: '0px',
         // for rtl
-        rtl: true,
+        // rtl: true,
     });
 
     // pricing tabs

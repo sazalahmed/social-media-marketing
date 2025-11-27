@@ -1199,7 +1199,7 @@ button {
 .wsus__about_text .seperator .client .icon {
     width: 60px;
     position: absolute;
-    top: 30px;
+    top: 37px;
     left: 30px;
     color: var(--colorPrimary);
 }
@@ -2582,6 +2582,7 @@ footer {
     margin-top: 15px;
     margin-bottom: 25px;
     padding: 17px 16px 16px 25px;
+    text-align: center;
 }
 
 .wsus__login_form button::after {

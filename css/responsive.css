@@ -282,7 +282,7 @@
     }
 
     .wsus__about_text .seperator {
-        gap: 15px 40px;
+        gap: 15px 30px;
     }
 
     .wsus__about_text .seperator .client h3 {
@@ -431,6 +431,10 @@
     .wsus__sign_up_img {
         height: 100%;
     }
+
+    .wsus__banner_text h1 span::after {
+        bottom: 3px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -490,7 +494,7 @@
 
     .wsus__banner_text h1 span::after {
         width: 90%;
-        bottom: -7px;
+        bottom: 0;
     }
 
     .wsus__banner_text p {
@@ -806,6 +810,18 @@
         height: 100%;
     }
 
+    .wsus__banner_text::before {
+        bottom: 30%;
+    }
+
+    .wsus__testimonial .nextArrow,
+    .wsus__testimonial .prevArrow {
+        right: -70px;
+    }
+
+    .wsus__testimonial .prevArrow {
+        left: -70px;
+    }
 }
 
 @media (min-width: 767px) and (max-width: 991px) {
@@ -1144,6 +1160,15 @@
     .wsus__sign_up_contant b::before {
         width: 150px;
     }
+
+    .wsus__testimonial .nextArrow,
+    .wsus__testimonial .prevArrow {
+        right: -70px;
+    }
+
+    .wsus__testimonial .prevArrow {
+        left: -70px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 766px) {
@@ -1446,7 +1471,7 @@
     }
 
     .details_quot_text {
-        padding: 30px;
+        padding: 30px !important;
     }
 
     .details_quot_text::after {
@@ -1685,7 +1710,7 @@
     }
 
     .wsus__work_item .text h3 {
-        font-size: 20px;
+        font-size: 22px;
     }
 
     .wsus__work_item .text {
@@ -1822,7 +1847,7 @@
     }
 
     .details_quot_text {
-        padding: 30px;
+        padding: 30px !important;
     }
 
     .details_quot_text::after {
@@ -1903,5 +1928,9 @@
 
     .wsus__sign_up_contant h2 {
         font-size: 28px;
+    }
+
+    .wsus__footer_subscribe form button {
+        right: 9px;
     }
 }
