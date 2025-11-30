@@ -17,7 +17,7 @@ $(function () {
         }
     });
 
-    // select js
+    // select js 
     $('.select_js').niceSelect();
 
     // venobox
@@ -78,6 +78,59 @@ $(function () {
         effect: 'scale',
         defaultTab: 1,
     });
+
+    // blog slider
+    $('.blog_slider').slick({
+        slidesToShow: 4,
+        slidesToScroll: 4,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        arrows: false,
+        dots: true,
+        focusOnSelect: true,
+        // for rtl
+        // rtl: true,
+
+
+        responsive: [
+            {
+                breakpoint: 1400,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                }
+            },
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                }
+            },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+            }
+        ]
+    });
+
 
     // SVG Inject js
     SVGInject(document.querySelectorAll("img.injectable"));

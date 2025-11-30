@@ -85,16 +85,15 @@
 }
 
 .pws_tab_single {
-  display: block;
-  transition: all linear .2s;
-  -webkit-transition: all linear .2s;
-  -moz-transition: all linear .2s;
-  -ms-transition: all linear .2s;
-  -o-transition: all linear .2s;
+  transition: all linear .5s;
+  -webkit-transition: all linear .5s;
+  -moz-transition: all linear .5s;
+  -ms-transition: all linear .5s;
+  -o-transition: all linear .5s;
 }
 
 .pws_tabs_container.pws_scale>.pws_tabs_list>.pws_hide {
-  opacity: .85;
+  opacity: 0.2;
   transform: scale(0.95);
   -webkit-transform: scale(0.95);
   -moz-transform: scale(0.95);
